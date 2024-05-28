@@ -23,8 +23,7 @@ public class Fila extends EstrategiaFIFO {
 
     @Override
     public String inserir() {
-        // Como o método inserir() não tem parâmetros, precisamos adaptar.
-        // Aqui vamos inserir uma senha normal por padrão.
+        // tamo inserindo a senha normalzona (esqueci de deixar do meu jeito e nao do pessoal de lá)
         return inserir(TipoLista.NORMAL);
     }
 
