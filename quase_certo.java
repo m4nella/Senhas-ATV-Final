@@ -56,6 +56,8 @@ public class Fila extends EstrategiaFIFO {
         return "Senha " + senha.retornarSenha() + " inserida na fila " + tipo.tipo + ".";
     }
 
+
+    // esse botao de remover nao esta removendo a mesma senha que foi atendida... arrumar dps 
     @Override
     public void remover() {
         if (!filaUrgente.isEmpty()) {
